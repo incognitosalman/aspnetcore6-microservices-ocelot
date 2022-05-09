@@ -1,0 +1,13 @@
+{
+  "routes": [
+    {
+      // Entry Api end points to identify which service/API call
+      "endpoint": "/products",
+      // Call to Inner service/API end points to get/put/post
+      "destination": {
+        "uri": "http://localhost:5445/api/products/", // console mode
+        "requiresAuthentication": "true"
+      }
+    }
+  ]
+}
